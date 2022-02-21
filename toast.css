@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+   margin: 0;
 }
 .container{
     display: flex;
@@ -61,45 +61,23 @@
 .main div,p{
     padding: 15px 0px;
 }
-.heading{
-    display: flex;
-    flex-direction: column;
-    gap:1rem;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid lightblue;
-    padding: 5px;
-}
-.heading-aligment{
-    background-color: grey;
-    width: 30rem;
-}
-.align-left{
-    text-align: left;   
-}
-.align-center{
-    text-align: center;
-}
-.align-right{
-    text-align: right;
-}
-.mg{
-    margin: 15px 0px;
-}
-.colored-text{
-    display: flex;
+.snackbar{
+    border: 1px solid lightcyan;
     font-weight: bold;
-    font-size: 25px;
-    flex-direction: row;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 22px;
 }
-.Colored-red{
-    color: red;
+.snackbar-success{
+    background-color: green;
 }
-.Colored-grey{
-   color: grey;
+.snackbar-failure{
+    background-color: red;
 }
-.main-text{
-    background-color: black;
-    font-size: 44px;
-    color: red;
+.snackbar-span{
+    color: black;
+    padding-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
 }
