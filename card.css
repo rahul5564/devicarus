@@ -47,6 +47,7 @@
 }
 .side-bar div{
     margin-top: 10px;
+    margin-left: 2rem;
 }
 .main{
     grid-column: 2/4;
