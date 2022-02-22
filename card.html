@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="container">
+        <div id="logo">Icarus-UI</div>
+        <div class="a">
+            <a href="#" class="a1">Home</a>
+            <a  href="#"  class="a1">Docs</a>
+        </div>
+    </nav>
+    <div class="grid">  
+    <aside class="side-bar">
+        <div><a href="#">Installation</a></div>
+        <div><a href="#">Typography</a></div>
+        <h2>Components</h2>
+        <div><a href="#">Alert</a></div>
+        <div><a href="#">Avatar</a></div>
+        <div><a href="#">Badge</a></div>
+        <div><a href="#">Button</a></div>
+        <div><a href="#">Card</a></div>
+        <div><a href="#">Grid</a></div>
+        <div><a href="#">Image</a></div>
+        <div><a href="#">Input</a></div>
+        <div><a href="#">Toast</a></div>
+    </aside>
+    <div class="main">
+        <h1 class="heading-content">card component</h1>
+        <p class="para-content">Card is a UI component that contains content and actions about a single subject.This content may include text, images, links and more, and may vary in size. </p>
+    
+        <!--badge card-->
+        <h2 class="heading-content">Badge Card</h2>
+        <p class="para-content">Badges are used to add additional information to the content.
+            It is achieved using css position property
+        </p>
+        <div class="container1">
+            <div class="badge-card">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2020/9/EC/CO/IS/40729054/designer-sofa-set-500x500.jpg">
+                <h2>Stylish Blue Sofa</h2>
+                <p class="badge">#1 Best Seller</p>
+                <p>Ships in 3-4 days</p>
+                <p class="price">15,000/-</p>
+                <button class="save-button">Save</button>
+                <button class="buy-button">Buy</button>
+            </div>
+        </div>
+        <p class="para-content">copy the below snippet and paste it in html file for badge card!</p>
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=31px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=119%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522container1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252F5.imimg.com%252Fdata5%252FSELLER%252FDefault%252F2020%252F9%252FEC%252FCO%252FIS%252F40729054%252Fdesigner-sofa-set-500x500.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EStylish%2520Blue%2520Sofa%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522badge%2522%253E%25231%2520Best%2520Seller%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EShips%2520in%25203-4%2520days%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price%2522%253E15%252C000%252F-%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522save-button%2522%253ESave%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522buy-button%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 1021px; height: 234px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    
+        
+        <!--text only card-->
+        <h2 class="heading-content">Text only Card</h2>
+        <p class="para-content">Text only card is used to add information and actions. It contains heading, content and actions.
+        </p>
+    <div class="container1">
+        <div class="text-only-card">
+            <div class="card-body">
+            <h2>Hot Air Balloon Festival</h2>
+            <p>Turkey’s most popular hot-air ballooning destination, known for its annual festival when the skies are filled with brightly coloured canopies. Here is the lowdown on everything you need to know  </p>
+        </div>
+    
+            <div class="card-icon-text">
+            <button class="btn-text">READ</button>
+            <button class="btn-text">BOOKMARK</button>
+            </div>
+         
+    
+            <div class="card-icons">
+                <button class="btn-icon">
+                    <i class="fa fa-heart fa-lg"></i>
+                </button>
+                <button class="btn-icon">
+                    <i class="fa fa-share-alt fa-lg"></i>
+                </button>
+                <button class="btn-icon">
+                    <i class="fa fa-comment fa-lg"></i>
+                </button>
+            </div>    
+        </div>
+    </div>
+    <p class="para-content">copy the below snippet and paste it in html file for text only card</p>
+
+    <iframe
+    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=31px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container1%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522text-only-card%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%253Ch2%253EHot%2520Air%2520Balloon%2520Festival%253C%252Fh2%253E%250A%2520%2520%2520%253Cp%253ETurkey%25E2%2580%2599s%2520most%2520popular%2520hot-air%2520ballooning%2520destination%252C%2520known%2520for%2520its%2520annual%2520festival%2520when%2520the%2520skies%2520are%2520filled%2520with%2520brightly%2520coloured%2520canopies.%2520Here%2520is%2520the%2520lowdown%2520on%2520everything%2520you%2520need%2520to%2520know%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+    style="width: 1024px; height: 169px; border:0; transform: scale(1); overflow:hidden;"
+    sandbox="allow-scripts allow-same-origin">
+</iframe>
+    
+    <!--dismiss card-->
+    <h2 class="heading-content">Card With Dismiss</h2>
+        <p class="para-content">Card With Dismiss contains dismiss button to close the card. it is done using css position property</p>
+    <div class="container1">
+        <div class="dismiss-card">
+          
+                <div class="dismiss-card-body">
+                    <img src="./img/hot-air-balloons-festival-cappadocia-turkey-HOTAIR0605.jpg">
+                    <h2 class="title">Hot Air Balloon Festival</h2>
+                    <p class="content">Turkey’s most popular hot-air ballooning destination, known for its annual festival when the skies are filled with brightly coloured canopies. Here is the lowdown on everything you need to know  </p>
+                    <button class="dismiss">Dismiss x</button>
+                </div>
+            <div class="card-icons">
+                <button class="btn-icon">
+                    <i class="fa fa-heart fa-lg"></i>
+                </button>
+                <button class="btn-icon">
+                    <i class="fa fa-share-alt fa-lg"></i>
+                </button>
+                <button class="btn-icon">
+                    <i class="fa fa-comment fa-lg"></i>
+                </button>
+            </div>    
+    
+        </div>
+    
+    </div>
+    <p class="para-content">copy the below snippet and paste it in html file for card with dismiss</p>
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=31px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522dismiss-card-body%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522.%252Fimg%252Fhot-air-balloons-festival-cappadocia-turkey-HOTAIR0605.jpg%2522%253E%250A%2520%2520%253Ch2%2520class%253D%2522title%2522%253EHot%2520Air%2520Balloon%2520Festival%253C%252Fh2%253E%250A%2520%2520%253Cp%2520class%253D%2522content%2522%253ETurkey%25E2%2580%2599s%2520most%2520popular%2520hot-air%2520ballooning%2520destination%252C%2520known%2520for%2520its%2520annual%2520festival%2520when%2520the%2520skies%2520are%2520filled%2520with%2520brightly%2520coloured%2520canopies.%2520Here%2520is%2520the%2520lowdown%2520on%2520everything%2520you%2520need%2520to%2520know%2520%2520%253C%252Fp%253E%250A%2520%2520%253Cbutton%2520class%253D%2522dismiss%2522%253EDismiss%2520x%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+  style="width: 1024px; height: 169px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    <!--text overlay card-->
+    <h2 class="heading-content">Text overlay Card</h2>
+        <p class="para-content">Text overlay card is used to add information on the images. It contains heading, content ,image and actions.
+        </p>
+    <div class="container1">
+    <div class="text-overlay">
+        <div class="card-body">
+    
+            <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2015/03/Best-Destinations-in-India-for-Hot-Air-Balloon-Ride.jpg">
+            <h2 class="title">Hot Air Balloon Festival</h2>
+            <p class="date">june,2021</p>
+            <p class="content">Turkey’s most popular hot-air ballooning destination, known for its annual festival when the skies are filled with brightly coloured canopies. Here is the lowdown on everything you need to know  </p>
+        </div>
+        <div class="card-icons">
+            <button class="btn-icon">
+                <i class="fa fa-heart fa-lg"></i>
+            </button>
+            <button class="btn-icon">
+                <i class="fa fa-share-alt fa-lg"></i>
+            </button>
+            <button class="btn-icon">
+                <i class="fa fa-comment fa-lg"></i>
+            </button>
+        </div>  
+    </div>
+    </div>
+    <p class="para-content">copy the below snippet and paste it in html file for text overlay card</p>
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=31px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-body%2522%253E%2520%2520%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fassets.traveltriangle.com%252Fblog%252Fwp-content%252Fuploads%252F2015%252F03%252FBest-Destinations-in-India-for-Hot-Air-Balloon-Ride.jpg%2522%253E%250A%2520%2520%253Ch2%2520class%253D%2522title%2522%253EHot%2520Air%2520Balloon%2520Festival%253C%252Fh2%253E%250A%2520%2520%253Cp%2520class%253D%2522date%2522%253Ejune%252C2021%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522content%2522%253ETurkey%25E2%2580%2599s%2520most%2520popular%2520hot-air%2520ballooning%2520destination%252C%2520known%2520for%2520its%2520annual%2520festival%2520when%2520the%2520skies%2520are%2520filled%2520with%2520brightly%2520coloured%2520canopies.%2520Here%2520is%2520the%2520lowdown%2520on%2520everything%2520you%2520need%2520to%2520know%2520%2520%253C%252Fp%253E%250A%2520%253C%252Fdiv%253E"
+  style="width: 1024px; height: 186px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    <!--shadow card-->
+    <h2 class="heading-content">Shadow Card</h2>
+        <p class="para-content">Shadow cards are used to make images look popping out from the screen. This is achieved using <strong>CSS Box Shadow </strong>property</p>
+    <div class="shadow-container">
+        <div class="shadow-card">
+            <div class="card-body">
+                <img src="./img/Japan-1.jpg">
+                <p class="content">Turkey’s most popular hot-air ballooning destination, known for its annual festival when the skies are filled with brightly coloured canopies. Here is the lowdown on everything you need to know  </p>
+            </div>
+            <div class="card-icons">
+            <button class="btn-icon">
+                <i class="fa fa-heart fa-lg"></i>
+            </button>
+            <button class="btn-icon">
+                <i class="fa fa-share-alt fa-lg"></i>
+            </button>
+            <button class="btn-icon">
+                <i class="fa fa-comment fa-lg"></i>
+            </button>
+        </div>  
+        </div>
+    </div>
+    <p class="para-content">copy the below snippet and paste it in html file for shadow card</p>
+    
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=31px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522.%252Fimg%252FJapan-1.jpg%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522content%2522%253ETurkey%25E2%2580%2599s%2520most%2520popular%2520hot-air%2520ballooning%2520destination%252C%2520known%2520for%2520its%2520annual%2520festival%2520when%2520the%2520skies%2520are%2520filled%2520with%2520brightly%2520coloured%2520canopies.%2520Here%2520is%2520the%2520lowdown%2520on%2520everything%2520you%2520need%2520to%2520know%2520%2520%253C%252Fp%253E%250A%2520%253C%252Fdiv%253E"
+  style="width: 1024px; height: 137px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    
+    <!--horizantal card-->
+    <h2 class="heading-content">Horizantal Card</h2>
+        <p class="para-content">horizantal card is used for storing images and content in separate layouts. This is achived using <strong>CSS Grid</strong>property</p>
+    <div class="horizantal-card-container">
+    <div class="horizantal-card">
+       <div class="horizantal-image">
+           <img src= "./img/Best-Destinations-in-India-for-Hot-Air-Balloon-Ride.jpg">
+       </div>
+    <div class="horizantal-content">
+        <h2>Hot Air Balloon Festival</h2>
+        <p>Turkey’s most popular hot-air ballooning destination, known for its annual festival when the skies are filled with brightly coloured canopies. Here is the lowdown on everything you need to know</p>
+        <button class="btn-text">READ</button>
+            <button class="btn-text">BOOKMARK</button>
+    
+    </div> 
+    
+    </div>
+    </div>
+    <p class="para-content">copy the below snippet and paste it in html file for horizantal card</p> 
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=31px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=119%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522horizantal-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2520%2522.%252Fimg%252FBest-Destinations-in-India-for-Hot-Air-Balloon-Ride.jpg%2522%253E%250A%2520%253C%252Fdiv%253E"
+  style="width: 712px; height: 105px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </div>
+</div>
+    <footer class="footer">
+        <a href="#">GitHub</a>
+        <a href="">LinkedIn</a>
+        <a href="">Twitter</a>
+    </footer>
+</body>
+</html>
