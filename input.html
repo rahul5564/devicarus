@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+    <nav class="container">
+        <div id="logo">Icarus-UI</div>
+        <div class="a">
+            <a href="#" class="a1">Home</a>
+            <a  href="#"  class="a1">Docs</a>
+        </div>
+    </nav>
+    <div class="grid">  
+    <aside class="side-bar">
+        <div><a href="#">Installation</a></div>
+        <div><a href="#">Typography</a></div>
+        <h2>Components</h2>
+        <div><a href="#">Alert</a></div>
+        <div><a href="#">Avatar</a></div>
+        <div><a href="#">Badge</a></div>
+        <div><a href="#">Button</a></div>
+        <div><a href="#">Card</a></div>
+        <div><a href="#">Grid</a></div>
+        <div><a href="#">Image</a></div>
+        <div><a href="#">Input</a></div>
+        <div><a href="#">Toast</a></div>
+    </aside>
+    <div class="main">
+        <h1> Input </h1>
+    <p>
+       Inputs are used in forms to collect user related data.
+    </p>
+    <h3>
+        Basic Input
+    </h3>
+    <p>
+       Include class input-box along with input-label, input-text to have desired styling for label and input component
+    </p>
+    <div class="input">
+        <label for="name"><span class="bold"> Username </span></label> 
+        <input type="text" name="name" class="inp">
+    <iframe class="snip-code"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=31px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=118%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253E%253Cspan%2520class%253D%2522bold%2522%253E%2520Username%2520%253C%252Fspan%253E%253C%252Flabel%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name%2522%2520class%253D%2522inp%2522%253E%250A%2520%2520%253C%252Fdiv%253E"
+        style="width: 620px; height: 123px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+    </iframe>
+    </div>
+    <h3>
+    Input with error validation
+    </h3>
+    <p>
+     Include class input-box along with error-input to have error validation on textbox with error text class input-error-text
+    </p>
+    <div class="input">
+        <label for="Password"><span class="bold"> Password </span></label> 
+        <input type="text" name="Password" class="inp red">
+        <span class="clrred">Password does not match</span>
+    <iframe class="snip-code"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=31px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=118%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522Password%2522%253E%253Cspan%2520class%253D%2522bold%2522%253E%2520Password%2520%253C%252Fspan%253E%253C%252Flabel%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522Password%2522%2520class%253D%2522inp%2520red%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522clrred%2522%253EPassword%2520does%2520not%2520match%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E"
+        style="width: 653px; height: 140px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+    </iframe>
+   </div>
+    <h3>
+    Input with validation
+    </h3>
+    <p>
+        Include class input-box along with success-input to have error validation on textbox with success text class input-success-text
+    </p>
+    <div class="input">
+        <label for="Password"><span class="bold"> Password </span></label> 
+        <input type="text" name="Password" class="inp green">
+        <span class="clrgreen">Password matches</span>
+        <iframe class="snip-code"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=31px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=118%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522Password%2522%253E%253Cspan%2520class%253D%2522bold%2522%253E%2520Password%2520%253C%252Fspan%253E%253C%252Flabel%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522Password%2522%2520class%253D%2522inp%2520green%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522clrgreen%2522%253EPassword%2520matches%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E"
+        style="width: 653px; height: 140px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <a href="#">GitHub</a>
+        <a href="">LinkedIn</a>
+        <a href="">Twitter</a>
+    </footer>
+</body>
+</html>
